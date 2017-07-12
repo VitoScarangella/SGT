@@ -46,7 +46,7 @@ use common\models\Tool;
     [
 		'columns'=>2,
 		'attributes' => [
-            'societa'=>['label'=>'Nome della societa'','type'=> Form::INPUT_TEXT, 'options'=>['class'=>'textField','placeholder'=>'Società...', 'maxlength'=>150 ]],
+            'societa'=>['label'=>'Nome della società,'type'=> Form::INPUT_TEXT, 'options'=>['class'=>'textField','placeholder'=>'Società...', 'maxlength'=>150 ]],
             'email'=>['label'=>'','type'=> Form::INPUT_TEXT, 'options'=>['class'=>'textField','type'=>'email', 'placeholder'=>'Inserisci una mail che usi spesso sulla quale desideri ricevere le nostre comunicazioni', 'maxlength'=>30]],
 			]
 		],
