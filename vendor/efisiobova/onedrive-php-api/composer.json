@@ -1,0 +1,45 @@
+{
+    "name":              "efisiobova/onedrive-php-api",
+    "description":       "OneDrive library for PHP.",
+    "homepage":          "https://github.com/efisiobova/onedrive-php-api",
+    "license":           "GPL-3.0",
+    "prefer-stable":     true,
+    "minimum-stability": "dev",
+
+    "keywords": [
+        "Efisiobova",
+        "onedrive",
+        "php",
+        "api"
+    ],
+
+    "author": [
+        {
+            "name":     "Efisio Bova",
+            "homepage": "https://github.com/efisiobova/"
+        }
+    ],
+
+    "support": {
+        "email":  "efisio.bova@gmail.com",
+        "issues": "https://github.com/Efisiobova/onedrive-php-api/issues",
+        "wiki":   "https://github.com/Efisiobova/onedrive-php-api/wiki",
+        "source": "https://github.com/Efisiobova/onedrive-php-api"
+    },
+
+    "require": {
+        "php":      ">= 5.4 || >= 7.0",
+        "ext-curl": "*"
+    },
+
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "4.8.26 || 5.4.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Efisiobova\\Onedrive\\": "src/Efisiobova/Onedrive"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "efisiobova/onedrive-php-sdk",
+    "type": "library",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "require": {}
+}

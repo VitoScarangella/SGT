@@ -1,0 +1,43 @@
+Message-ID: <7133777c40e1a0ce5ec4a393fdb65c5c@svil.sportgrandtour.it>
+Date: Sat, 01 Jul 2017 12:22:18 +0200
+Subject: E-mail confirmation for My Application
+From: SGT <admin@example.com>
+To: efisio.bova@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1498904538_3d227afcedaced6fcd065ce9021d4b02_=_"
+
+
+--_=_swift_v4_1498904538_3d227afcedaced6fcd065ce9021d4b02_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello efisio.bova@gmail.com, follow this link to confirm your email:
+
+C=
+onfirm E-mail
+
+--_=_swift_v4_1498904538_3d227afcedaced6fcd065ce9021d4b02_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <title></title>
+    </head>
+<body>
+       =20
+Hello efisio.bova@gmail.com, follow this link to confirm your em=
+ail:
+
+<a href=3D"http://svil.sportgrandtour.it/user-management/auth/con=
+firm-email-receive?token=3D6JNEkebMVQJdP1IUYC_0EYnvDycIjHmo_1498904538">Con=
+firm E-mail</a>    </body>
+</html>
+
+
+--_=_swift_v4_1498904538_3d227afcedaced6fcd065ce9021d4b02_=_--

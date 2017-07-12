@@ -1,0 +1,49 @@
+Message-ID: <edd438f349695c8feb1bf3764c576657@svil.sportgrandtour.it>
+Date: Thu, 29 Jun 2017 18:05:52 +0200
+Subject: E-mail confirmation for My Application
+From: SGT <admin@example.com>
+To: efisio.bova@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1498752352_6fb4e9f936f2c13d04021f8ada9a5c77_=_"
+
+
+--_=_swift_v4_1498752352_6fb4e9f936f2c13d04021f8ada9a5c77_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello, you have been registered on http://svil.sportgrandtour.it
+
+Follo=
+w this link to confirm your E-mail and activate account:
+
+confirm E-mai=
+l
+
+--_=_swift_v4_1498752352_6fb4e9f936f2c13d04021f8ada9a5c77_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <title></title>
+    </head>
+<body>
+       =20
+Hello, you have been registered on http://svil.sportgrandtour.it=
+
+<br/><br/>
+Follow this link to confirm your E-mail and activate accoun=
+t:
+
+<a href=3D"http://svil.sportgrandtour.it/user-management/auth/confi=
+rm-registration-email?token=3D12Ylww9cah6rRE9QcV0IgZzTek41dmLA_1498752351">=
+confirm E-mail</a>    </body>
+</html>
+
+
+--_=_swift_v4_1498752352_6fb4e9f936f2c13d04021f8ada9a5c77_=_--

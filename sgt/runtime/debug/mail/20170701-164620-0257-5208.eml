@@ -1,0 +1,43 @@
+Message-ID: <b9b86c986de9e47d8cff4da0f8fe2fac@svil.sportgrandtour.it>
+Date: Sat, 01 Jul 2017 16:46:18 +0200
+Subject: Benvenuto in Sport Grand Tour
+From: SGT <admin@example.com>
+To: efisio.bova@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1498920378_ce3e8da241ac9081d153d2593fa48a31_=_"
+
+
+--_=_swift_v4_1498920378_ce3e8da241ac9081d153d2593fa48a31_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+With kind regards, My Application team
+
+--_=_swift_v4_1498920378_ce3e8da241ac9081d153d2593fa48a31_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <style type=3D"text/css">
+        .heading =
+{...}
+        .list {...}
+        .footer {...}
+    </style>
+    </=
+head>
+<body>
+            <div class=3D"footer">With kind regards, My Ap=
+plication team</div>
+    </body>
+</html>
+
+
+--_=_swift_v4_1498920378_ce3e8da241ac9081d153d2593fa48a31_=_--

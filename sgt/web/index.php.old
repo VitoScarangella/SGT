@@ -1,0 +1,72 @@
+<?php
+$TRACE_LEVEL=0;
+$DEBUG=false;
+if ($_SERVER['HTTP_HOST']=="localhost:8013")
+{
+  $TRACE_LEVEL=4;
+  $DEBUG=false;
+}
+else
+{
+  $TRACE_LEVEL=0;
+  $DEBUG=false;
+}
+
+defined('YII_DEBUG') or define('YII_DEBUG', $DEBUG);
+defined('YII_ENV') or define('YII_ENV', 'prod');
+defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',$TRACE_LEVEL);
+error_reporting(E_ALL);
+
+require(__DIR__ . '/../../vendor/autoload.php');
+require(__DIR__ . '/../../vendor/yiisoft/yii2/Yii.php');
+require(__DIR__ . '/../../common/config/bootstrap.php');
+require(__DIR__ . '/../config/bootstrap.php');
+
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
+$config = yii\helpers\ArrayHelper::merge(
+    require(__DIR__ . '/../../common/config/main.php'),
+    require(__DIR__ . '/../../common/config/main-local.php'),
+    require(__DIR__ . '/../config/main.php'),
+    require(__DIR__ . '/../config/main-local.php')
+);
+
+//////////////////////////////////////////////////////////////////////
+//Provvisorio: da cpire perche' non lo prende da /../config/main.php
+//////////////////////////////////////////////////////////////////////
+$config["modules"]['user-management'] = [
+    'class' => 'webvimark\modules\UserManagement\UserManagementModule',
+    'enableRegistration' => true,
+    'useEmailAsLogin' => true,
+    //'emailConfirmationRequired' => true,
+    'rolesAfterRegistration' => ['ACCOUNT'],
+    'mailerOptions' =>["from"=> [$params['adminEmail'] => ""] ],
+    //'on afterRegistration' => function(UserAuthEvent $event) {
+        // Here you can do your own stuff like assign roles, send emails and so on
+    //},
+];
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
+
+$application = new yii\web\Application($config);
+
+//Da attivare provvisoriamente per cancellare la cache degli ActiveRecord
+if ($_SERVER['HTTP_HOST']=="localhost:8013") Yii::$app->cache->flush();
+
+// Compressione
+/*$application->on(yii\web\Application::EVENT_BEFORE_REQUEST, function(yii\base\Event $event){
+    $event->sender->response->on(yii\web\Response::EVENT_BEFORE_SEND, function($e){
+        ob_start("ob_gzhandler");
+    });
+    $event->sender->response->on(yii\web\Response::EVENT_AFTER_SEND, function($e){
+        ob_end_flush();
+    });
+});
+*/
+$application->run();

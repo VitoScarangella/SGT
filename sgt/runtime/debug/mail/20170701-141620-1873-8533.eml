@@ -1,0 +1,50 @@
+Message-ID: <47f38da1059831c964d8ea5744ae4b76@svil.sportgrandtour.it>
+Date: Sat, 01 Jul 2017 14:16:18 +0200
+Subject: E-mail confirmation for My Application
+From: SGT <admin@example.com>
+To: efisio.bova@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1498911378_7b09e3f2c83b6d14e17b7c46d83506b0_=_"
+
+
+--_=_swift_v4_1498911378_7b09e3f2c83b6d14e17b7c46d83506b0_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello efisio.bova@gmail.com, follow this link to confirm your email:
+
+C=
+onfirm E-mail
+
+--_=_swift_v4_1498911378_7b09e3f2c83b6d14e17b7c46d83506b0_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <title></title>
+    </head>
+<body>
+        <img class=3D"img-responsive standard-logo" width=3D"100" height=3D=
+"40" src=3D"//www.sportgrandtour.it/wp-content/uploads/2016/09/The-Sport-Gr=
+and-Tour-v1-small.png" alt=3D"Sport Grand Tour">
+<hr>
+
+
+
+Hello ef=
+isio.bova@gmail.com, follow this link to confirm your email:
+
+<a href=
+=3D"http://svil.sportgrandtour.it/user-management/auth/confirm-registration=
+-email?token=3DySFvEPTQ3cOe0P-qknxIubevxtZNuZq4_1498911377">Confirm E-mail<=
+/a>    </body>
+</html>
+
+
+--_=_swift_v4_1498911378_7b09e3f2c83b6d14e17b7c46d83506b0_=_--
